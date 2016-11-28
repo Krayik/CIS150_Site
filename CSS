@@ -1,0 +1,126 @@
+body {
+	font-size: 13px;
+	font-family: "Times New Roman", Arial, Verdana, Geneva, Tahoma, serif;
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+ul {
+	list-style-type: none;
+	margin: 24px;
+	padding: 0;
+	overflow: hidden;
+}
+nav {
+	padding: 10px; 
+	margin: 10px; 
+	clear: both; 
+}
+li{
+		float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 18px;
+	font-size: 18px;
+	text-decoration: none;
+	background-color: ;
+}
+a:link {
+	color:FFFFFF;
+}
+li a:hover:not(.active) {
+	background-color: green;
+}
+a:visited {
+	color: lightgrey;
+}
+.active{
+	background-color: rgb(63,183,23);
+}
+#page {
+	width: 960px;
+	margin: auto;
+	overflow: auto;
+	background-image: "images/background.png";
+	Font-size: 16px;
+}
+#logo{
+	width: 960px;
+	margin: 0px, 0px, 5px, 0px;
+}
+#amplify_symbol {
+	height:300px;
+	width:960px;
+}
+#ap_lvl {
+	height: 250px;
+	width: 122px;
+}
+#characters {
+	height: 250px;
+	width: 122px;
+}
+main {
+	
+	width: auto;
+	padding: 10px;
+	margin: 5px 0px 5px 0px;
+	overflow: auto;
+}
+.wow_stats {
+	float: right;
+	width: 250px;
+	font-size: 24px;
+	border: 1px solid red;
+	margin: 5px;
+}
+.news {
+	font-size: 24px;
+	float: left;
+	width: 405px;
+	border: 1px solid blue;
+	margin: 8px;
+}
+.quick {
+	font-size: 20px;
+	float: left;
+	width: 240px;
+	border: 1px solid green;
+	margin: 5px;
+}
+.app {
+	padding:10px;
+	Background-color: white;
+	color: black;
+	margin: auto;
+	width: 660px;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 575;
+	font-family: arial;
+}
+#arch {
+	height:380px;
+	width: 680px;
+}
+#appserver {
+	font-size: 24px;
+}
+#apptitle {
+	font-size: 30px;
+}
+.contacts {
+	width: 950px;
+}
+.sm {
+	margin: 0px auto;
+	padding:10px;
+	height:150px;
+	width: 200px;
+}
+footer {
+	float:left;
+}
